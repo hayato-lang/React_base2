@@ -19,7 +19,7 @@ const App = () => {
       <br />
       <button onClick={onClickFaceSwichShowFlag}>on/off</button>
       <p>{num}</p>
-      {setFaceShowFlag && <p>♪(´ε｀ )</p>}
+      {faceShowFlag && <p>♪(´ε｀ )</p>}
     </>
   );
 };
