@@ -10,6 +10,12 @@ const App = () => {
   const onClickFaceSwichShowFlag = () => {
     setFaceShowFlag(!faceShowFlag);
   };
+
+  if (num % 3 === 0) {
+    faceShowFlag || setFaceShowFlag(true);
+  } else {
+    faceShowFlag && setFaceShowFlag(false);
+  }
   return (
     <>
       <h1 style={{ color: "red" }}>こんにちは</h1>
